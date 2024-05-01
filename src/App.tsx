@@ -1,12 +1,10 @@
 import "./App.scss"
-import HeroCategory from "./components/hero-category"
-import Navbar from "./components/navbar"
+import WeatherApp from "./projects/weather-app"
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
-      <HeroCategory />
+      <WeatherApp />
     </div>
   )
 }

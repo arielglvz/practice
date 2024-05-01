@@ -1,4 +1,6 @@
 .app {
-  width: 100%;
-  min-width: 400px;
+  min-width: 375px;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
 }
